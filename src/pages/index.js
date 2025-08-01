@@ -84,6 +84,13 @@ const links = [
       "準備中",
     color: "#E95800",
   },
+  {
+    text: "Decaf,ディカフェ,カフェインレスコーヒーの販売",
+    url: "https://www.gatsbyjs.com/docs/conceptual/",
+    description:
+      "準備中",
+    color: "#E95800",
+  },
 ]
 
 const IndexPage = () => {
@@ -91,7 +98,7 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <h1 style={headingStyles}>
         <br />
-        <span style={headingAccentStyles}>— Shinyudo</span>
+        <span style={headingAccentStyles}>— サービス内容</span>
       </h1>
       <ul style={listStyles}>
         {links.map(link => (
