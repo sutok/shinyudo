@@ -77,6 +77,13 @@ const links = [
       "MySQL,PostgreSQL,MongoDB,Redis,Memcache,SQLServer,Firebase",
     color: "#0D96F2",
   },
+  {
+    text: "AIX",
+    url: "https://www.gatsbyjs.com/docs/conceptual/",
+    description:
+      "準備中",
+    color: "#E95800",
+  },
 ]
 
 const IndexPage = () => {
