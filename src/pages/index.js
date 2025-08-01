@@ -78,7 +78,7 @@ const links = [
     color: "#0D96F2",
   },
   {
-    text: "AIX",
+    text: "AI・DX",
     url: "https://www.gatsbyjs.com/docs/conceptual/",
     description:
       "準備中",
