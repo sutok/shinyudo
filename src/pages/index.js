@@ -1,8 +1,9 @@
 import * as React from "react"
+import Layout from "../components/Layout"
 
 const pageStyles = {
   color: "#232129",
-  padding: 96,
+  padding: "48px 0",
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 const headingStyles = {
@@ -95,25 +96,23 @@ const links = [
 
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
-      <h1 style={headingStyles}>
-        <br />
-        <span style={headingAccentStyles}>— サービス内容</span>
-      </h1>
-      <ul style={listStyles}>
-        {links.map(link => (
-          <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
-            <span>
-              {link.text}
-              <p style={descriptionStyle}>{link.description}</p>
-            </span>
-          </li>
-        ))}
-      </ul>
-      <footer style={footerStyle}>
-        Copyright © 2015 shinyudo.com. All rights reserved.
-      </footer>
-    </main>
+    <Layout>
+      <div style={pageStyles}>
+        <h1 style={headingStyles}>
+          <span style={headingAccentStyles}>— サービス内容</span>
+        </h1>
+        <ul style={listStyles}>
+          {links.map(link => (
+            <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
+              <span>
+                {link.text}
+                <p style={descriptionStyle}>{link.description}</p>
+              </span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </Layout>
   )
 }
 
