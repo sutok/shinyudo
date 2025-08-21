@@ -46,15 +46,21 @@ const links = [
   {
     text: "Linuxサーバー構築",
     url: "https://www.gatsbyjs.com/docs/tutorial/getting-started/",
-    description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
+    description: [
+      "・Linuxサーバーの初期設定",
+      "・ユーザー管理と権限設定",
+      "・セキュリティ対策（ファイアウォール、SSH設定など）",
+      "・Webサーバー（Apache/Nginx）構築",
+      "・データベースサーバー構築",
+      "・バックアップと運用管理"
+    ],
     color: "#E95800",
   },
   {
     text: "Dockerfileの作成",
     url: "https://www.gatsbyjs.com/docs/how-to/",
     description:
-      "Practical step-by-step guides to help you achieve a specific goal. Most useful when you're trying to get something done.",
+      "Dockerfileをゼロから作成、既存環境の最適化",
     color: "#1099A8",
   },
   {
