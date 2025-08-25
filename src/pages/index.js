@@ -47,6 +47,7 @@ const links = [
     text: "Linuxサーバー構築",
     url: "https://www.gatsbyjs.com/docs/tutorial/getting-started/",
     description: [
+      "・WebサイトのSSL証明書設定",
       "・Linuxサーバーの初期設定",
       "・ユーザー管理と権限設定",
       "・セキュリティ対策（ファイアウォール、SSH設定など）",
@@ -55,6 +56,7 @@ const links = [
       "・バックアップと運用管理"
     ],
     color: "#E95800",
+    isList: true,
   },
   {
     text: "Dockerfileの作成",
@@ -89,6 +91,18 @@ const links = [
     url: "https://www.gatsbyjs.com/docs/conceptual/",
     description:
       "準備中",
+    color: "#E95800",
+  },
+  {
+    text: "画像生成AI",
+    url: "https://www.gatsbyjs.com/docs/conceptual/",
+    description: `最先端のAI技術を活用し、イメージを言葉からダイレクトに形にするオーダーメイド画像生成サービスです。
+お客様の要望をもとに、広告やSNS、プレゼン資料、商品パッケージなど、幅広い用途に最適化された高品質なビジュアルを制作します。
+「欲しいイメージはあるのに見つからない」
+「オリジナルのビジュアルで差別化したい」
+そんなお悩みを解決し、ブランドの魅力を最大限に引き出すデザインをお届けします。
+AI生成ならではのスピードと柔軟性に加え、クリエイターの監修でクオリティを担保。
+安心してご利用いただける、次世代のクリエイティブソリューションです。`,
     color: "#E95800",
   },
   {
